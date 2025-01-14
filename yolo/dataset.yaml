@@ -1,0 +1,11 @@
+train: ./data/train/images  # Path to training images
+val: ./data/val/images      # Path to validation images
+
+nc: 5  # Number of classes
+names: [
+    'vegetation',            # Vegetation changes
+    'water_body',            # Changes in water bodies
+    'soil_erosion',          # Erosion in landscapes
+    'infrastructure',        # Building or infrastructure changes
+    'rock_formation'         # Shifts or changes in rock formations
+]
